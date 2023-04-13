@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/f.korzh-3.2-hotfix">
+        <classes>
+            <class name="Tests.DemoQaTests">
+                <methods>
+                    <include name="testAlerts"/>
+                    <include name="testIFrame"/>
+                    <exclude name="testTables"/>
+                    <include name="testHandles"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
