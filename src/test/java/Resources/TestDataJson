@@ -1,0 +1,23 @@
+{
+	"users": [{
+			"id": 1,
+			"First Name": "Jon",
+			"Last Name": "Snow",
+			"Email": "knownothing@gmail.com",
+			"Age": 30,
+			"Salary": 3000,
+			"Department": "alpha"
+		},
+		{
+			"id": 2,
+			"First Name": "Buttercup",
+			"Last Name": "Cumbersnatch",
+			"Email": "BudapestCandygram@mail.io",
+			"Age": 41,
+			"Salary": 2000,
+			"Department": "beta"
+		}
+	],
+	"FirstAlertText": "This is a sample page",
+	"clickedButtonText": "You clicked a button"
+}
